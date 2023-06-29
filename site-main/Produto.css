@@ -1,0 +1,48 @@
+header {
+    background: #555353bb;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: nome;
+
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 40vh;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.preco-produto{
+    font-size: 22px;
+    font-weight: bold;
+}
