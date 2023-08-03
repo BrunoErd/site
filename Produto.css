@@ -28,3 +28,11 @@ nav a {
     text-align: nome;
 
 }
+
+.floco{
+    width: 15%;
+
+} 
+.produtos li {
+    display: inline-blockSS;
+}
