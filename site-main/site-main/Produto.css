@@ -1,15 +1,15 @@
-header{
-    background: #BBBB;
+header {
+    background: #555353bb;
     padding: 20px;
 }
 
-.caixa{
+.caixa {
     position: relative;
-    width: 1240px;
+    width: 1140px;
     margin: 0 auto;
 }
 
-nav{
+nav {
     position: absolute;
     top: 200px;
     right: 0;
@@ -29,12 +29,20 @@ nav a {
 
 }
 
-.produto li {
-    display:inline-block;
-    
+.produtos {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.floco{
-    width: 15%;
+.img {
+    width: 40vh;
+}
 
-} 
+.produto-descricao{
+    font-size: 18px;
+}
+
+.preco-produto{
+    font-size: 22px;
+    font-weight: bold;
+}
